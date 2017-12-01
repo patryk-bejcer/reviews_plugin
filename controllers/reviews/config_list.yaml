@@ -1,0 +1,11 @@
+title: Reviews
+modelClass: patrykbejcer\Reviews\Models\Review
+list: $/patrykbejcer/reviews/models/review/columns.yaml
+recordUrl: 'patrykbejcer/reviews/reviews/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

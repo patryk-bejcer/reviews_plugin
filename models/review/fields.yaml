@@ -1,0 +1,28 @@
+fields:
+    author:
+        label: Author
+        oc.commentPosition: ''
+        span: full
+        type: text
+    content:
+        label: 'Review content'
+        size: ''
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    reviewimage:
+        label: 'Review Image'
+        oc.commentPosition: ''
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload
+    is_active:
+        label: Active
+        span: full
+        type: checkbox

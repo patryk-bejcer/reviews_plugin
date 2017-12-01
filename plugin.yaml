@@ -1,0 +1,11 @@
+plugin:
+    name: Reviews
+    description: 'patrykbejcer reviews plugin'
+    author: patrykbejcer
+    icon: oc-icon-star-half
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Reviews
+        url: patrykbejcer/reviews/reviews
+        icon: icon-star-half

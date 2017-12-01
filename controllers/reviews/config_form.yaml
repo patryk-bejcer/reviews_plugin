@@ -1,0 +1,10 @@
+name: Reviews
+form: $/patrykbejcer/reviews/models/review/fields.yaml
+modelClass: patrykbejcer\Reviews\Models\Review
+defaultRedirect: patrykbejcer/reviews/reviews
+create:
+    redirect: 'patrykbejcer/reviews/reviews/update/:id'
+    redirectClose: patrykbejcer/reviews/reviews
+update:
+    redirect: patrykbejcer/reviews/reviews
+    redirectClose: patrykbejcer/reviews/reviews

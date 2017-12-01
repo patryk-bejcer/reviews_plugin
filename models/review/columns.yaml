@@ -1,0 +1,22 @@
+columns:
+    author:
+        label: Author
+        type: text
+        searchable: true
+        sortable: true
+    content:
+        label: Content
+        type: text
+        searchable: true
+    created_at:
+        label: 'Created At'
+        type: datetime
+        sortable: true
+    is_active:
+        label: Active
+        type: text
+        sortable: true
+    email:
+        label: Email
+        type: text
+        searchable: true
